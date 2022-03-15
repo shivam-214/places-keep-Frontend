@@ -20,10 +20,10 @@
     background: #ffd900;
   }
   
-  .card.content {
-    padding: 0;
+  .content {
+    padding: 0 !important;
   }
-  
+
   .image {
     width: 5rem;
     height: 5rem;
