@@ -1,3 +1,3 @@
 # places-keep-Frontend
 
-Hosted App: https://places-keep.web.app/
+Hosted App(firebase): https://places-keep.web.app/
