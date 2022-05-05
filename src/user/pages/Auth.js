@@ -96,6 +96,24 @@ const Auth = () => {
         );
       } catch (err) {}
     } else {
+      // let imageUrl;
+      // try {
+      //   const imageData = new FormData();
+      //   imageData.append("file", formState.inputs.image.value);
+      //   imageData.append("upload_preset", "xembnjbb");
+
+      //   const response = await sendRequest(
+      //     "https://api.cloudinary.com/v1_1/mern-images/image/upload",
+      //     {
+      //       method: "POST",
+      //       body: imageData,
+      //     }
+      //   );
+      //   imageUrl = response.url;
+      //   console.log(response);
+      // } catch (err) {
+      //   console.log(err);
+      // }
       try {
         const formData = new FormData();
         formData.append("email", formState.inputs.email.value);
